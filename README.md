@@ -7,8 +7,6 @@ A Python-based keylogger with a modern **dark-themed GUI**, designed for educati
 ---
 
 ## 🎨 GUI Preview
-
-![GUI Preview](Keylogger_Gui.jpg)
 <p align="center">
   <img src="Keylogger_Gui.jpg" alt="GUI Preview" width="600">
 </p>
