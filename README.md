@@ -1,10 +1,5 @@
 # 🕵️‍♂️ Keylogger-KD: Dark Mode GUI Keylogger
 
-<p align="center">
-  <img src="Keylogger_Gui.jpg" alt="GUI Preview" width="600">
-</p>
-
-
 A Python-based keylogger with a modern **dark-themed GUI**, designed for educational and ethical research purposes only. It allows real-time keystroke logging, log viewing, and log management — all through an intuitive interface.
 
 > ⚠️ **Disclaimer:** This tool is intended for **educational** and **authorized use only**. Do not use it on devices or systems without proper consent.
