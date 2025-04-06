@@ -1,32 +1,58 @@
-# 🛡️ Educational Keylogger – Python
+# 🕵️‍♂️ Keylogger-KD: Dark Mode GUI Keylogger
 
-> A simple keylogger built for **educational and research purposes only**.
+A Python-based keylogger with a modern **dark-themed GUI**, designed for educational and ethical research purposes only. It allows real-time keystroke logging, log viewing, and log management — all through an intuitive interface.
 
----
-
-## ⚠️ Legal Disclaimer
-
-This project is intended solely for **educational use** on systems **you own or have permission to test**.  
-Any misuse of this code may violate computer misuse and cybercrime laws. The authors are **not responsible** for any unlawful activities performed with this software.
+> ⚠️ **Disclaimer:** This tool is intended for **educational** and **authorized use only**. Do not use it on devices or systems without proper consent.
 
 ---
 
-## 📦 Features
+## 🎨 GUI Preview
 
-- Captures all keystrokes and logs them with timestamps.
-- CLI tool to start the logger.
-- Viewer to read saved logs.
-- Logs stored in `/logs/` folder.
+![GUI Preview](Keylogger_Gui.jpg)
 
 ---
 
-## 🚀 How to Use
+## 🚀 Features
 
-1. **Install dependencies:**
+- 🔑 Real-time keystroke logging
+- 🎨 Dark mode Tkinter-based GUI
+- 📂 Log viewer and logger control
+- 🧼 Clear log button for easy management
+- ⚙️ Command-line interface (CLI) version included
+
+---
+
+## 🛠️ Files Included
+
+| File           | Description                                   |
+|----------------|-----------------------------------------------|
+| `logger.py`    | Core keylogging logic                         |
+| `gui_app.py`   | Dark-themed GUI application using Tkinter     |
+| `viewer.py`    | View logs in a separate GUI window            |
+| `cli.py`       | Command-line interface version                |
+| `Keylogger_Gui.jpg` | Screenshot of the GUI                    |
+| `.gitignore`   | Git ignore configuration                      |
+| `README.md`    | This file                                     |
+
+---
+
+## 📦 Requirements
+
+- Python 3.x
+- `pynput`
+- `tkinter` (built-in with Python on most systems)
+
+Install required packages:
 
 ```bash
 pip install pynput
 
-python cli.py
 
-python viewer.py
+🖥️ How to Run
+🔹 GUI Version
+```bash
+python gui_app.py
+
+🔹 CLI Version
+```bash
+python cli.py
