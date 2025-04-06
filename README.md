@@ -50,6 +50,7 @@ pip install pynput
 
 
 🖥️ How to Run
+
 🔹 GUI Version
 ```bash
 python gui_app.py
